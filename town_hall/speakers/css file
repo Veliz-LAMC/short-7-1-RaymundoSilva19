@@ -1,20 +1,26 @@
 /* CSS for Navigation Menu */
+#nav_menu {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+}
+
 #nav_menu ul {
     list-style: none;
-    margin: 0;
     padding: 0;
 }
 
-#nav_menu li {
+#nav_menu ul li {
     display: inline;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
-#nav_menu li a {
+#nav_menu ul li a {
     text-decoration: none;
-    color: red; /* Adjust color as needed */
+    color: #000;
+    font-weight: bold;
 }
 
-#nav_menu li a:hover {
+#nav_menu ul li a:hover {
     text-decoration: underline;
 }
